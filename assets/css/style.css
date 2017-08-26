@@ -9,20 +9,19 @@
 body{
     background-image: url("../images/yosemite.jpg");
     background-repeat: no-repeat;
-    background-size: 180vh;
-    height: 100vh;
+   
     background-position: center;
     background-color: darkslategrey;
 }
 h1{
     color: #4f6339;
-    opacity: .77;
+    opacity: .8;
     font-weight: 800;
 }
 h2{
-    font-weight: 300;
+    font-weight: 400;
     color: #493932;
-    opacity: .80;
+    opacity: .87;
 }
 
 #timer{
@@ -47,8 +46,9 @@ h2{
 
 
 .btn-outline-dark{
+    font-weight: 500;
     margin-bottom: 5px;
-    opacity: .84;
+    background-color: rgba(263,263,263,.60);
 }
 
 

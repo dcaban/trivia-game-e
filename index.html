@@ -19,59 +19,59 @@
             <h1 class="text-center">National Park Trivia</h1>
             <div id="quiz">
                 <h2 class="text-center" id="timer">Click To Start Start</h2>
-                    <div id="qAndA">
-                        <h2 id="q1">Who is considered the father of the national parks<h2>
-                            <label><button id="answer1" type="button" class="btn btn-outline-dark"><input type="radio" name="option1" value="1"> John Muir</button></label>
-                            <label><button id="answer2" type="button" class="btn btn-outline-dark"><input type="radio" name="option1" value="2"> James Muir</button></label>
-                            <label><button id="answer3" type="button" class="btn btn-outline-dark"><input type="radio" name="option1" value="3"> Abagail Murf</button></label>
-                            <label><button id="answer4" type="button" class="btn btn-outline-dark"><input type="radio" name="option1" value="4"> George Washington</button></label>
+                    <form id="qAndA" name="quizForm" onsubmit="return submitAnswers()">
+                        <h2 id="q1">Who is considered the father of the national parks?</h2>
+                            <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="a1" name="option1" value="1"> John Muir</button></label>
+                            <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="b1" name="option1" value="2"> James Muir</button></label>
+                            <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="c1" name="option1" value="3"> Abagail Murf</button></label>
+                            <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="d1" name="option1" value="4"> George Washington</button></label>
 
 
-                         <h2 id="q1">How much land does the national park system cover<h2>
-                             <label><button id="answer1" type="button" class="btn btn-outline-dark"><input type="radio" name="option2" value="1"> 84 million acres</button></label>
-                             <label><button id="answer2" type="button" class="btn btn-outline-dark"><input type="radio" name="option2" value="2"> 70 thousand acres</button></label>
-                             <label><button id="answer3" type="button" class="btn btn-outline-dark"><input type="radio" name="option2" value="3"> 84 miles</button></label>
-                             <label><button id="answer4" type="button" class="btn btn-outline-dark"><input type="radio" name="option2" value="4"> 800 thousand acres</button></label>
+                         <h2 id="q1">How much land does the national park system cover?</h2>
+                            <label><button  type="button" class="btn btn-outline-dark"><input type="radio" id="a2" name="option2" value="1"> 84 million acres</button></label>
+                            <label><button  type="button" class="btn btn-outline-dark"><input type="radio" id="b2" name="option2" value="2"> 70 thousand acres</button></label>
+                            <label><button  type="button" class="btn btn-outline-dark"><input type="radio" id="c2" name="option2" value="3"> 84 miles</button></label>
+                            <label><button  type="button" class="btn btn-outline-dark"><input type="radio" id="d2" name="option2" value="4"> 800 thousand acres</button></label>
 
 
-                        <h2 id="q1">How much land does the national park system cover<h2>
-                             <label><button id="answer1" type="button" class="btn btn-outline-dark"><input type="radio" name="option3" value="1"> 84 million acres</button></label>
-                             <label><button id="answer2" type="button" class="btn btn-outline-dark"><input type="radio" name="option3" value="2"> 70 thousand acres</button></label>
-                             <label><button id="answer3" type="button" class="btn btn-outline-dark"><input type="radio" name="option3" value="3"> 84 miles</button></label>
-                             <label><button id="answer4" type="button" class="btn btn-outline-dark"><input type="radio" name="option3" value="4"> 800 thousand acres</button></label>
+                        <h2 id="q1">What was the first national park?</h2>
+                             <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="a3" name="option3" value="1"> Yellow Stone</button></label>
+                             <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="b3" name="option3" value="2"> Moab</button></label>
+                             <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="c3" name="option3" value="3"> Yosemite</button></label>
+                             <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="d3" name="option3" value="4"> The Grand Canyon</button></label>
 
-                        <h2 id="q1">How much land does the national park system cover<h2>
-                             <label><button id="answer1" type="button" class="btn btn-outline-dark"><input type="radio" name="option4" value="1"> 84 million acres</button></label>
-                             <label><button id="answer2" type="button" class="btn btn-outline-dark"><input type="radio" name="option4" value="2"> 70 thousand acres</button></label>
-                             <label><button id="answer3" type="button" class="btn btn-outline-dark"><input type="radio" name="option4" value="3"> 84 miles</button></label>
-                             <label><button id="answer4" type="button" class="btn btn-outline-dark"><input type="radio" name="option4" value="4"> 800 thousand acres</button></label>
-
-
-                         <h2 id="q1">How much land does the national park system cover<h2>
-                             <label><button id="answer1" type="button" class="btn btn-outline-dark"><input type="radio" name="option5" value="1"> 84 million acres</button></label>
-                             <label><button id="answer2" type="button" class="btn btn-outline-dark"><input type="radio" name="option5" value="2"> 70 thousand acres</button></label>
-                             <label><button id="answer3" type="button" class="btn btn-outline-dark"><input type="radio" name="option5" value="3"> 84 miles</button></label>
-                             <label><button id="answer4" type="button" class="btn btn-outline-dark"><input type="radio" name="option5" value="4"> 800 thousand acres</button></label>
+                        <h2 id="q1">When was the worlds first national park created?</h2>
+                             <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="a4" name="option4" value="1"> 1028 CE</button></label>
+                             <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="b4" name="option4" value="2"> 1877 CE</button></label>
+                             <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="c4" name="option4" value="3"> 1772 CE</button></label>
+                             <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="d4" name="option4" value="4"> 1292 CE</button></label>
 
 
-
-                         <h2 id="q1">How much land does the national park system cover<h2>
-                             <label><button id="answer1" type="button" class="btn btn-outline-dark"><input type="radio" name="option6" value="1"> 84 million acres</button></label>
-                             <label><button id="answer2" type="button" class="btn btn-outline-dark"><input type="radio" name="option6" value="2"> 70 thousand acres</button></label>
-                             <label><button id="answer3" type="button" class="btn btn-outline-dark"><input type="radio" name="option6" value="3"> 84 miles</button></label>
-                             <label><button id="answer4" type="button" class="btn btn-outline-dark"><input type="radio" name="option6" value="4"> 800 thousand acres</button></label>
+                         <h2 id="q1">What river runs though the grand canyon?</h2>
+                             <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="a5" name="option5" value="1"> The Colorado River</button></label>
+                             <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="b5" name="option5" value="2"> The Rio Grande</button></label>
+                             <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="c5" name="option5" value="3"> The Canyon River</button></label>
+                             <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="d5" name="option5" value="4"> The LA River</button></label>
 
 
 
-                        <h2 id="q1">How much land does the national park system cover<h2>
-                              <label><button id="answer1" type="button" class="btn btn-outline-dark"><input type="radio" name="option7" value="1"> 84 million acres</button></label>
-                              <label><button id="answer2" type="button" class="btn btn-outline-dark"><input type="radio" name="option7" value="2"> 70 thousand acres</button></label>
-                              <label><button id="answer3" type="button" class="btn btn-outline-dark"><input type="radio" name="option7" value="3"> 84 miles</button></label>
-                              <label><button id="answer4" type="button" class="btn btn-outline-dark"><input type="radio" name="option7" value="4"> 800 thousand acres</button></label>
+                         <h2 id="q1">What park has the deepest lake in the untied states?</h2>
+                             <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="a6" name="option6" value="1"> Glacier National Park</button></label>
+                             <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="b6" name="option6" value="2"> Lake Clark National Park</button></label>
+                             <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="c6" name="option6" value="3"> Great Lakes National Park</button></label>
+                             <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="d6" name="option6" value="4"> Crater Lake National Park</button></label>
 
-                <button type="button" class="btn btn-success btn-lg" id="submit">submit</button>
 
-                    </div>
+
+                        <h2 id="q1">What national park has the largest tree in the world?</h2>
+                              <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="a7" name="option7" value="1"> Redwood National Park</button></label>
+                              <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="b7" name="option7" value="2">Grand Tetons National Park</button></label>
+                              <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="c7" name="option7" value="3"> Sequoia National Park</button></label>
+                              <label><button type="button" class="btn btn-outline-dark"><input type="radio" id="d7" name="option7" value="4"> Joshua Tree National Park</button></label><br>
+
+                <input type="submit" class="btn btn-success btn-lg" id="submit" value="submit">
+
+                    </form>
 
 
         </div>
